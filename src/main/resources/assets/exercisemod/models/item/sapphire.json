@@ -1,6 +1,6 @@
 {
 	"palent": "item/genereted",
 	"textures": {
-		"later0": "exercisemod:item/sapphire"
+		"layer0": "exercisemod:item/sapphire"
 	}
 }
