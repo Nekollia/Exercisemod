@@ -18,6 +18,8 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.usoneko.exercisemod.block.ModBlocks;
+import net.usoneko.exercisemod.item.ModCreativeModeTabs;
 import net.usoneko.exercisemod.item.ModItems;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -33,7 +35,10 @@ public class ExerciseMod
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         
+        ModCreativeModeTabs.register(modEventBus);
+        
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -58,6 +63,7 @@ public class ExerciseMod
     {
     	if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
     		event.accept(ModItems.SAPPHIRE);
+    		event.accept(ModItems.RAW_SAPPHIRE);
     	}
     }
 

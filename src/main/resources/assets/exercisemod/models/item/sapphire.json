@@ -1,6 +1,6 @@
 {
-	"palent": "item/genereted",
-	"textures": {
-		"layer0": "exercisemod:item/sapphire"
-	}
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "exercisemod:item/sapphire"
+  }
 }

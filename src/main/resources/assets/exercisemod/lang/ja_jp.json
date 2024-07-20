@@ -1,3 +1,17 @@
 {
-	"item,exercisemod.sapphire": "サファイア"
+	"item.exercisemod.sapphire": "サファイア",
+	"item.exercisemod.raw_sapphire": "サファイアの原石",
+	
+	"item.exercisemod.metal_detector": "金属探知機",
+	
+	"creative.exercise_tab": "サファイアタブ",
+	
+	"block.exercisemod.sapphire_block": "サファイアブロック",
+	"block.exercisemod.raw_sapphire_block": "サファイアの原石ブロック",
+	
+	"block.exercisemod.sapphire_ore": "サファイア鉱石",
+	"block.exercisemod.deepslate_sapphire_ore": "深層サファイア鉱石",
+	"block.exercisemod.nether_sapphire_ore": "ネザーサファイア鉱石",
+	"block.exercisemod.end_stone_sapphire_ore": "エンドサファイア鉱石"
+	
 }
